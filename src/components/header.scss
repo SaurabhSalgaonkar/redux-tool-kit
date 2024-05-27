@@ -1,0 +1,23 @@
+.header-container {
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+
+    .brand-name {
+        width: 100%;
+        padding: 20px;
+        font-weight: bolder;
+    }
+
+    .nav-link {
+        width: 100%;
+        align-items: center;
+        justify-content: end;
+        display: flex;
+
+        .links {
+            text-decoration: none;
+            padding: 20px;
+        }
+    }
+}
