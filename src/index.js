@@ -9,6 +9,9 @@ import { appStore } from "./utils/appStore";
 const domRoot = document.getElementById('root');
 const root = createRoot(domRoot);
 
+const element = React.createElement("h1", {}, "I am h1");
+console.log(element);
+
 root.render(
     <>
         <BrowserRouter>
